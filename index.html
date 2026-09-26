@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#08291e">
+<title>VarshaMitra · Code Raiders</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site-shell">
+  <header class="showcase-header">
+    <div class="showcase-inner">
+      <div class="showcase-brand">
+        <div class="showcase-logo"><img src="assets/team-logo.png" alt="Code Raiders team logo"></div>
+        <div>
+          <div class="team-line"><strong>Code Raiders</strong><span>—</span><b>SakshamVaani</b></div>
+          <p>SIH26097 · PM-AJAY GIA · SC Beneficiary Voice Companion</p>
+        </div>
+      </div>
+      <div class="showcase-badge">SIH 2026 · PS 086</div>
+    </div>
+    <div class="showcase-copy">
+      <span class="showcase-kicker">HYPERLOCAL MONSOON INTELLIGENCE</span>
+      <h1>Know the Rain. <em>Plan the Harvest.</em></h1>
+      <p>Meet <strong>VarshaMitra</strong> — a farmer-first mobile experience that turns rainfall intelligence into clear, local and actionable crop decisions.</p>
+      <div class="showcase-pills"><span>🌧 Hyperlocal rain</span><span>🌾 Crop intelligence</span><span>🎙 Voice-first AI</span><span>ଓ Odia ready</span></div>
+    </div>
+  </header>
+
+  <main class="phone-stage">
+    <div class="stage-glow"></div>
+    <div class="phone-shadow"></div>
+    <div class="phone">
+      <div class="phone-bezel">
+        <div class="dynamic-island"></div>
+        <div class="status-bar"><span id="status-time">4:40</span><div class="status-icons"><span>▮▮▮</span><span>◉</span><span>▰</span></div></div>
+        <main id="app">
+          <section id="splash-screen" class="screen splash-screen">
+            <div class="splash-bg"></div>
+            <div class="splash-content">
+              <div class="logo-wrap"><img src="assets/logo.png" alt="VarshaMitra" class="splash-logo"></div>
+              <span class="splash-kicker">HYPERLOCAL FARMER INTELLIGENCE</span>
+              <h1>VarshaMitra</h1>
+              <p>Know the Rain.<br>Plan the Harvest.</p>
+            </div>
+            <div class="splash-team"><img src="assets/team-logo.png" alt="Code Raiders"><div><strong>CODE RAIDERS</strong><small>SakshamVaani</small></div></div>
+            <div class="splash-bottom"><span>SIH 2026 · PS 086</span><span>● PROTOTYPE</span></div>
+          </section>
+
+          <section id="permission-screen" class="screen hidden">
+            <div class="onboarding-header"><button class="icon-button" id="permission-back">←</button><span class="step-text" data-i18n="step1">Step 1 of 3</span></div>
+            <div class="onboarding-content">
+              <div class="onboarding-icon">🌦️</div><span class="eyebrow" data-i18n="letsStart">LET'S GET STARTED</span>
+              <h2 data-i18n-html="permissionTitle">Smarter farming<br>starts with <span>better information.</span></h2>
+              <p class="onboarding-description" data-i18n="permissionDesc">Allow the permissions you want VarshaMitra to use for hyperlocal weather, voice AI and rain alerts.</p>
+              <div class="permission-list">
+                <button class="permission-card" data-permission="location"><div class="permission-icon">📍</div><div><strong data-i18n="location">Location</strong><small data-i18n="locationDesc">For hyperlocal rainfall intelligence</small></div><span class="permission-status" data-i18n="allow">Allow</span></button>
+                <button class="permission-card" data-permission="microphone"><div class="permission-icon">🎙️</div><div><strong data-i18n="microphone">Microphone</strong><small data-i18n="microphoneDesc">Ask AI Saathi using your voice</small></div><span class="permission-status" data-i18n="allow">Allow</span></button>
+                <button class="permission-card" data-permission="notifications"><div class="permission-icon">🔔</div><div><strong data-i18n="notifications">Notifications</strong><small data-i18n="notificationsDesc">Get important rain alerts</small></div><span class="permission-status" data-i18n="allow">Allow</span></button>
+              </div>
+              <div class="permission-note"><span>🔒</span><span data-i18n="permissionNote">Permissions are used only for this prototype experience.</span></div>
+            </div>
+            <div class="permission-actions"><button id="permission-continue" class="primary-button bottom-button" disabled><span data-i18n="continue">Continue</span> <span>→</span></button><button id="demo-permission" class="text-button" data-i18n="demoMode">Continue in demo mode</button></div>
+          </section>
+
+          <section id="language-screen" class="screen hidden">
+            <div class="onboarding-header"><button class="icon-button" id="language-back">←</button><span class="step-text" data-i18n="step2">Step 2 of 3</span></div>
+            <div class="onboarding-content"><div class="onboarding-icon">🌾</div><span class="eyebrow" data-i18n="yourLanguage">YOUR LANGUAGE</span><h2 data-i18n-html="languageTitle">Choose a language<br>for <span>your farm.</span></h2><p class="onboarding-description" data-i18n="languageDesc">Everything in the app can adapt to the language you choose.</p>
+              <div class="language-grid language-grid-seven">
+                <button class="language-card active" data-language="English"><span class="language-native">A</span><div><strong>English</strong><small>English</small></div><span class="check">✓</span></button>
+                <button class="language-card" data-language="Odia"><span class="language-native">ଓ</span><div><strong>ଓଡ଼ିଆ</strong><small>Odia</small></div><span class="check">✓</span></button>
+                <button class="language-card" data-language="Hindi"><span class="language-native">हि</span><div><strong>हिन्दी</strong><small>Hindi</small></div><span class="check">✓</span></button>
+                <button class="language-card" data-language="Bengali"><span class="language-native">বা</span><div><strong>বাংলা</strong><small>Bengali</small></div><span class="check">✓</span></button>
+                <button class="language-card" data-language="Telugu"><span class="language-native">తె</span><div><strong>తెలుగు</strong><small>Telugu</small></div><span class="check">✓</span></button>
+                <button class="language-card" data-language="Marathi"><span class="language-native">म</span><div><strong>मराठी</strong><small>Marathi</small></div><span class="check">✓</span></button>
+                <button class="language-card" data-language="Tamil"><span class="language-native">த</span><div><strong>தமிழ்</strong><small>Tamil</small></div><span class="check">✓</span></button>
+              </div>
+            </div>
+            <div class="language-footer"><span class="language-footer-note" data-i18n="languageHint">Your language, everywhere in the app.</span><button id="language-continue" class="primary-button bottom-button"><span data-i18n="next">Next</span> <span>→</span></button></div>
+          </section>
+
+          <section id="auth-screen" class="screen hidden">
+            <div class="auth-top"><div class="brand-mini"><div class="brand-dot">V</div><strong>VarshaMitra</strong></div><span class="secure-badge">DEMO</span></div>
+            <div class="auth-content"><span class="eyebrow" data-i18n="farmerProfile">FARMER PROFILE</span><h2 data-i18n-html="profileTitle">Let's make your<br>farm <span>personal.</span></h2><p data-i18n="profileDesc">Tell us a few basics so crop intelligence feels relevant to your farm.</p>
+              <form id="farmer-form">
+                <div class="form-group"><label for="farmer-phone" data-i18n="mobile">Mobile number</label><div class="input-wrapper"><span class="input-prefix">+91</span><input id="farmer-phone" inputmode="numeric" placeholder="10-digit number" maxlength="10"></div></div>
+                <div class="form-group"><label for="farmer-name" data-i18n="farmerName">Farmer name</label><input class="form-input" id="farmer-name" required placeholder="Your name"></div>
+                <div class="form-group"><label for="farmer-location" data-i18n="farmLocation">Farm location</label><input class="form-input" id="farmer-location" required value="Bhubaneswar, Odisha" placeholder="Village / city, state"></div>
+                <div class="form-row"><div class="form-group"><label for="farmer-crop" data-i18n="mainCrop">Main crop</label><select class="form-input" id="farmer-crop"><option>Paddy</option><option>Maize</option><option>Pulses</option></select></div><div class="form-group"><label for="farmer-water" data-i18n="waterAccess">Water access</label><select class="form-input" id="farmer-water"><option>Good</option><option>Moderate</option><option>Limited</option></select></div></div>
+                <div class="form-group"><label for="farmer-soil" data-i18n="soilType">Soil type</label><select class="form-input" id="farmer-soil"><option>Clay Loam</option><option>Loam</option><option>Sandy Loam</option><option>Alluvial</option></select></div>
+                <button class="primary-button full-width" type="submit"><span data-i18n="openDashboard">Open my farm dashboard</span> <span>→</span></button>
+              </form>
+              <div class="demo-note"><span>●</span> <span data-i18n="prototypeNote">Prototype mode — no real account is created.</span></div>
+            </div>
+          </section>
+
+          <section id="main-app" class="screen main-screen hidden">
+            <header class="app-header">
+              <div class="header-user"><div class="avatar" id="header-avatar">N</div><div><span class="header-greeting" id="header-greeting">Good morning</span><strong id="header-name">Farmer</strong></div></div>
+              <div class="header-brand"><img src="assets/team-logo.png" alt="Code Raiders"><span>CODE RAIDERS</span></div>
+              <div class="header-actions"><button class="language-mini" id="language-toggle">ଓ</button><button class="notification-button" id="notification-button" aria-label="Notifications">🔔<span></span></button></div>
+            </header>
+            <div id="app-content" class="app-content"></div>
+            <nav class="bottom-nav">
+              <button class="nav-item active" data-page="dashboard"><span>⌂</span><small data-nav="home">Home</small></button>
+              <button class="nav-item" data-page="forecast"><span>☁</span><small data-nav="forecast">Forecast</small></button>
+              <button class="nav-item" data-page="crops"><span>🌾</span><small data-nav="crops">Crops</small></button>
+              <button class="nav-item" data-page="assistant"><span>✦</span><small data-nav="assistant">AI Saathi</small></button>
+            </nav>
+          </section>
+        </main>
+      </div>
+    </div>
+
+  </main>
+</div>
+<div id="toast" class="toast"><span>✓</span><p></p></div>
+<script src="data/weather.js"></script>
+<script src="data/crops.js"></script>
+<script src="data/knowledge.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
