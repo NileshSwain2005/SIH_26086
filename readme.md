@@ -1,4 +1,4 @@
-# 🌾 AgriSathi — Intelligent Climate-Aware Farming Assistant
+# 🌾 VarshaMitra — Intelligent Climate-Aware Farming Assistant
 
 > **From Weather Uncertainty to Smarter Farming Decisions**
 
@@ -11,7 +11,7 @@ An AI-powered, multilingual agricultural decision-support platform designed to h
 **Problem Statement:** SIH 26086
 **Domain:** Agriculture & Rural Technology
 **Category:** Software
-**Project:** AgriSathi
+**Project:** VarshaMitra
 
 ---
 
@@ -25,7 +25,7 @@ But the real question for a farmer is:
 
 > **"What should I do because of this rain?"**
 
-AgriSathi bridges this gap.
+VarshaMitra bridges this gap.
 
 Instead of simply displaying weather forecasts, our platform converts **weather + rainfall + location + seasonal patterns + farming information** into actionable agricultural guidance.
 
@@ -40,7 +40,7 @@ For example:
 * Historical rainfall
 * Farming conditions
 
-**AgriSathi**
+**VarshaMitra**
 
 → analyzes the available information
 → estimates rainfall/weather conditions
@@ -123,11 +123,11 @@ Farmers need:
 
 # 💡 Our Proposed Solution
 
-## AgriSathi
+## VarshaMitra
 
-AgriSathi is an **AI-powered agricultural intelligence platform** that transforms environmental and weather data into practical farming recommendations.
+VarshaMitra is an **AI-powered agricultural intelligence platform** that transforms environmental and weather data into practical farming recommendations.
 
-Instead of treating weather prediction and agriculture as separate systems, AgriSathi connects them.
+Instead of treating weather prediction and agriculture as separate systems, VarshaMitra connects them.
 
 ### Our core pipeline
 
@@ -191,9 +191,9 @@ AI is used to convert complex environmental information into understandable reco
 
 ---
 
-# ✨ What Makes AgriSathi Different?
+# ✨ What Makes VarshaMitra Different?
 
-The uniqueness of AgriSathi is not simply **"we predict rain."**
+The uniqueness of VarshaMitra is not simply **"we predict rain."**
 
 Our uniqueness is:
 
@@ -235,7 +235,7 @@ Instead of stopping at:
 
 > "Rain probability: 75%"
 
-AgriSathi aims to answer:
+VarshaMitra aims to answer:
 
 > "What does this mean for your farming activity?"
 
@@ -331,7 +331,7 @@ The system displays:
 
 ### Step 4 — AI Analysis
 
-AgriSathi analyzes the available information.
+VarshaMitra analyzes the available information.
 
 ### Step 5 — Farming Recommendation
 
@@ -355,13 +355,13 @@ Plan sowing according to the expected rainfall window.
 
 ### Step 6 — Farmer Makes the Decision
 
-The final decision remains with the farmer, while AgriSathi provides data-driven support.
+The final decision remains with the farmer, while VarshaMitra provides data-driven support.
 
 ---
 
 # 🧠 AI / ML Component
 
-AgriSathi can be designed with separate intelligence layers.
+VarshaMitra can be designed with separate intelligence layers.
 
 ## 1. Rainfall Prediction Model
 
@@ -459,7 +459,7 @@ This creates a bridge between:
                              │
                              ▼
                   ┌─────────────────────┐
-                  │   AgriSathi UI      │
+                  │   VarshaMitra UI      │
                   │ Multilingual Web/App│
                   └──────────┬──────────┘
                              │
@@ -715,7 +715,7 @@ The final model will be selected based on validation performance and practical u
 
 Agricultural recommendations can influence real-world decisions.
 
-Therefore, AgriSathi follows a decision-support approach.
+Therefore, VarshaMitra follows a decision-support approach.
 
 The system:
 
@@ -729,7 +729,7 @@ The system:
 
 # 🌍 Expected Impact
 
-AgriSathi aims to help farmers:
+VarshaMitra aims to help farmers:
 
 ### 🌱 Make better crop-planning decisions
 
@@ -753,9 +753,9 @@ Instead of reacting after weather events occur, farmers can use forecasts and pr
 
 ---
 
-# 🆚 Traditional Approach vs AgriSathi
+# 🆚 Traditional Approach vs VarshaMitra
 
-| Traditional Weather App       | AgriSathi                            |
+| Traditional Weather App       | VarshaMitra                            |
 | ----------------------------- | ------------------------------------ |
 | Shows weather                 | Interprets weather                   |
 | Generic forecast              | Location-aware intelligence          |
@@ -770,7 +770,7 @@ Instead of reacting after weather events occur, farmers can use forecasts and pr
 
 # 🚀 Future Scope
 
-AgriSathi can be expanded into a complete agricultural intelligence ecosystem.
+VarshaMitra can be expanded into a complete agricultural intelligence ecosystem.
 
 ### 🌱 Soil Intelligence
 
@@ -837,7 +837,7 @@ UNDERSTANDING
 ACTION
 ```
 
-The long-term vision of AgriSathi is to create a **farmer-first agricultural intelligence platform** where climate data, AI, machine learning, agricultural knowledge, and local conditions work together.
+The long-term vision of VarshaMitra is to create a **farmer-first agricultural intelligence platform** where climate data, AI, machine learning, agricultural knowledge, and local conditions work together.
 
 > **Don't just tell the farmer what the weather will be.
 > Help them understand what it means for their farm.**
@@ -866,10 +866,10 @@ The project is being developed as a Smart India Hackathon solution with a focus 
 
 ---
 
-# ⭐ Why AgriSathi?
+# ⭐ Why VarshaMitra?
 
 Because the future of agriculture is not just about collecting more data.
 
 It is about turning that data into **understanding, preparation, and better decisions.**
 
-🌾 **AgriSathi — Your Weather. Your Land. Your Decision.**
+🌾 **VarshaMitra — Your Weather. Your Land. Your Decision.**
