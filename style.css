@@ -7,5 +7,87 @@
 @media(max-width:700px){.showcase-header{padding:18px 15px 8px}.showcase-inner{align-items:flex-start}.showcase-logo{width:45px;height:45px;border-radius:14px}.team-line{font-size:14px}.showcase-brand p{font-size:9px}.showcase-badge{display:none}.showcase-copy{margin-top:16px}.showcase-copy h1{font-size:30px}.showcase-copy p{font-size:12px}.showcase-pills{gap:5px}.showcase-pills span{font-size:8px;padding:6px 8px}.phone-stage{padding:15px 0 0;min-height:calc(100vh - 175px)}.phone{width:min(100vw,430px);height:calc(100vh - 175px);min-height:690px;border-radius:40px;padding:5px}.phone-bezel{border-radius:35px}.stage-note{display:none}.phone-shadow,.stage-glow{display:none}.status-bar{padding-left:17px;padding-right:17px}.dynamic-island{top:9px;width:112px;height:30px}}
 @media(max-width:430px){.showcase-header{display:none}.phone-stage{min-height:100vh;padding:0}.phone{width:100vw;height:100vh;min-height:0;border-radius:0;padding:0;box-shadow:none}.phone-bezel{border-radius:0;border:0}.dynamic-island{top:10px}.status-bar{height:48px}.app-content{padding-left:13px;padding-right:13px}.app-header{height:76px}.splash-screen{padding-top:75px}}
 
+
 /* Language selection upgrade */
 .language-screen{overflow:hidden}.language-grid-seven{grid-template-columns:1fr 1fr;gap:9px;max-height:430px;overflow:auto;padding-right:2px}.language-grid-seven .language-card{min-height:64px}.language-grid-seven .language-card:nth-child(1){grid-column:1}.language-footer{position:absolute;left:20px;right:20px;bottom:16px;background:rgba(247,246,239,.97);padding-top:8px}.language-footer-note{display:block;text-align:center;font-size:8px;color:#77847c;margin-bottom:7px}.language-footer .primary-button{min-height:48px}.onboarding-content:has(.language-grid-seven){padding-bottom:145px}.language-card{transition:transform .18s ease,border-color .18s ease,background .18s ease}.language-card:active{transform:scale(.985)}@media(max-height:760px){.language-grid-seven{max-height:340px}.onboarding-content:has(.language-grid-seven){padding-bottom:135px}}
+
+/* Crop detail modal — scoped inside the phone bezel */
+.crop-detail-modal{position:absolute;inset:0;z-index:200;background:rgba(5,20,14,.55);backdrop-filter:blur(4px);display:flex;align-items:flex-end;justify-content:center;animation:fadeIn .2s ease;border-radius:44px;overflow:hidden}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.crop-detail-sheet{width:100%;max-height:90%;border-radius:32px 32px 0 0;background:var(--cream);display:flex;flex-direction:column;overflow:hidden;animation:slideUp .28s cubic-bezier(.34,1.56,.64,1)}
+@keyframes slideUp{from{transform:translateY(60px);opacity:0}to{transform:none;opacity:1}}
+.crop-detail-header{padding:20px 20px 12px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);background:#fff}
+.detail-back{border:0;background:#eef3ef;color:var(--ink);border-radius:12px;padding:8px 12px;font-size:11px;font-weight:800;cursor:pointer}
+.crop-detail-header h2{flex:1;font:800 18px Manrope;margin:0}
+.crop-detail-body{overflow:auto;padding:16px 20px 32px;display:flex;flex-direction:column;gap:14px}
+.detail-hero{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:20px;padding:13px}
+.detail-hero-icon{width:64px;height:64px;border-radius:16px;background:#e9f3e9;display:grid;place-items:center;font-size:28px;flex:none}
+.detail-reason{font-size:10px;color:var(--muted);line-height:1.55;margin:0 0 8px}
+.detail-badges{display:flex;gap:6px;flex-wrap:wrap}
+.detail-badges span{font-size:8px;font-weight:800;background:#eef4f0;color:#2a7752;border-radius:999px;padding:5px 8px}
+.detail-weather-tip{display:flex;gap:9px;align-items:flex-start;border-radius:16px;padding:12px;font-size:10px;line-height:1.5}
+.detail-weather-tip p{margin:0}
+.tip-warn{background:#fff6ee;border:1px solid #f4d4a8;color:#7a4512}
+.tip-ok{background:#eef8f2;border:1px solid #b6dfc8;color:#1a5c38}
+.tip-dry{background:#f2f5fb;border:1px solid #c8d4e8;color:#2d4070}
+.detail-section{background:#fff;border:1px solid var(--line);border-radius:20px;padding:14px}
+.detail-section h3{font:800 13px Manrope;margin:0 0 12px;color:var(--forest)}
+.detail-step{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #f0f3ef}
+.detail-step:last-child{border-bottom:0}
+.step-num{min-width:24px;height:24px;border-radius:8px;background:var(--forest);color:#fff;display:grid;place-items:center;font-size:10px;font-weight:800;flex:none}
+.detail-step p{font-size:10px;color:#5a6660;line-height:1.5;margin:0}
+.detail-water-row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid #f0f3ef}
+.detail-water-row:last-child{border-bottom:0}
+.detail-water-row strong{font-size:10px;display:block}
+.detail-water-row p{font-size:9px;color:var(--muted);margin:3px 0 0}
+.water-tip{font-size:8px;font-weight:800;color:#2b7a52;background:#e8f5ee;border-radius:999px;padding:5px 8px;white-space:nowrap;flex:none}
+.detail-fert-row{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid #f0f3ef;gap:10px}
+.detail-fert-row:last-child{border-bottom:0}
+.fert-stage{font-size:9px;font-weight:700;color:var(--muted)}
+.fert-npk{font-size:9px;font-weight:800;color:var(--forest);text-align:right}
+/* Season picks on forecast page */
+.season-section{margin-top:12px}
+.season-crops-list{display:grid;gap:9px;margin-top:4px}
+.season-crop-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:11px;display:grid;grid-template-columns:50px 1fr auto;gap:10px;align-items:start;transition:.2s}
+.season-crop-card.best-season{border-color:#a9ddc1;background:#f1fbf5;box-shadow:0 8px 18px rgba(20,100,60,.07)}
+.season-crop-icon{width:50px;height:50px;border-radius:14px;background:#e8f1e9;display:grid;place-items:center;font-size:22px;overflow:hidden;flex:none}
+.season-crop-icon img{width:100%;height:100%;object-fit:cover;border-radius:14px}
+.season-crop-body strong{font:800 13px Manrope;display:block}
+.best-badge{display:inline-block;font-size:7px;font-weight:900;color:#1a6e43;background:#d4f0e3;border-radius:999px;padding:3px 7px;margin:3px 0 4px;letter-spacing:.06em}
+.season-crop-body p{font-size:9px;color:var(--muted);line-height:1.45;margin:3px 0 6px}
+.season-tags{display:flex;gap:5px;flex-wrap:wrap}
+.season-tags span{font-size:7px;font-weight:800;background:#eef3ef;color:#3a6b54;border-radius:999px;padding:4px 7px}
+.season-crop-pct{font:800 18px Manrope;padding-top:2px}
+.crop-summary-action{width:100%;border:1px solid #cbe4d4;background:#ebf7f0;border-radius:14px;padding:9px 12px;margin-top:7px;display:flex;align-items:center;justify-content:center;gap:7px;color:#187347;font:700 10px 'DM Sans',sans-serif;cursor:pointer;transition:.18s}
+.crop-summary-action:hover{background:#dcf1e4;transform:translateY(-1px)}
+.crop-summary-action:active{transform:scale(.98)}
+
+/* ── Alignment & overflow containment ─────────────────────────────── */
+/* Keep all phone content perfectly inside the bezel */
+.app-content{max-width:100%;overflow-x:hidden}
+.app-content *{max-width:100%;word-break:break-word}
+/* Cards must never bleed outside the phone */
+.weather-hero,.forecast-main-card,.intel-wide,.intelligence-card,
+.crop-summary,.crop-card,.season-crop-card,.action-banner,
+.ai-banner,.team-strip,.location-card{box-sizing:border-box;min-width:0}
+/* Intelligence grid — equal columns, no overflow */
+.intelligence-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;overflow:hidden}
+/* Season crop image inside forecast — always fill icon box */
+.season-crop-icon{overflow:hidden}
+.season-crop-icon img{width:100%;height:100%;object-fit:cover;display:block;border-radius:14px}
+/* Crop card image fix */
+.crop-card-image{overflow:hidden}
+.crop-card-image img{width:100%;height:100%;object-fit:cover;display:block}
+/* Crop summary image fix */
+.crop-summary-image{overflow:hidden}
+.crop-summary-image img{width:100%;height:100%;object-fit:cover;display:block}
+/* Detail hero icon fix */
+.detail-hero-icon{overflow:hidden}
+.detail-hero-icon img{width:100%;height:100%;object-fit:cover;display:block;border-radius:12px}
+/* Ensure text in weather stat boxes doesn't overflow */
+.weather-stat strong{font-size:clamp(11px,2.5vw,14px);word-break:break-all}
+/* Forecast page title alignment */
+.page-title{text-align:left}
+/* Bottom nav always above content */
+.bottom-nav{position:absolute;left:11px;right:11px;bottom:11px}
+
